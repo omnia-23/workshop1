@@ -1,8 +1,8 @@
 import express from "express";
 import cors from "cors";
-import { connectDB } from "./DB/connection.js";
+// import { connectDB } from "./DB/connection.js";
 // import authRouter from "./modules/auth/auth.controller.js";
-// import userRouter from "./modules/user/user.controller.js";
+import userRouter from "./modules/user/user.controller.js";
 
 const bootstrap = async () => {
   const app = express();
