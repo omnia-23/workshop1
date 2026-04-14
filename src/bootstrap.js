@@ -16,7 +16,7 @@ const bootstrap = async () => {
   });
 
   // app.use("/auth", authRouter);
-  app.use("/user", userRouter);
+  // app.use("/user", userRouter);
 
   app.use((err, req, res, next) => {
     res
