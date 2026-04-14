@@ -9,7 +9,7 @@ const bootstrap = async () => {
   app.use(cors());
   app.use(express.json());
 
-  await connectDB();
+  // await connectDB();
 
   app.get("/", (req, res) => {
     res.json("app running");
